@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e88bfdf3-31b8-4660-b67a-1797b47d771f" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://192.168.100.1:8010/Import" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ImportService1.wsdl" MetadataType="Wsdl" ID="b26e4757-8249-496f-9bbf-1c553b80b5ed" SourceId="1" SourceUrl="http://192.168.100.1:8010/Import?wsdl" />
+    <MetadataFile FileName="Import.xsd" MetadataType="Schema" ID="24f1484e-a15e-45fb-a27d-84717900e7b1" SourceId="1" SourceUrl="http://192.168.100.1:8010/Import?xsd=xsd2" />
+    <MetadataFile FileName="Import1.xsd" MetadataType="Schema" ID="e96d4359-afc9-452f-a79f-56398c027471" SourceId="1" SourceUrl="http://192.168.100.1:8010/Import?xsd=xsd1" />
+    <MetadataFile FileName="Import2.xsd" MetadataType="Schema" ID="c2a3059e-1856-4620-a4c8-f921882f975b" SourceId="1" SourceUrl="http://192.168.100.1:8010/Import?xsd=xsd0" />
+    <MetadataFile FileName="Import.disco" MetadataType="Disco" ID="ebe87eb3-51f8-4b0c-9a61-7ef3c0c51cbc" SourceId="1" SourceUrl="http://192.168.100.1:8010/Import?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
